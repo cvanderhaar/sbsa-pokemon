@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "stable"
+script:
+  - cd ./pokemon-app
+  - npm install
+  - ng lint
+  - ng build --prod
+on:
+  branch: master

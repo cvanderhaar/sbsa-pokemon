@@ -1,0 +1,15 @@
+.loading-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .loading-container > h4{
+    position: fixed;
+  }
+  
+  .loading-title {
+    color: #f3b714; 
+  }
+  
